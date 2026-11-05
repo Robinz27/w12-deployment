@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="mt-6 px-3 pb-4 text-center">
       <p className="inline-block rounded-md bg-blue-100 px-3 py-1.5 font-bold text-gray-800">
-        68071529 สรรชัย ใจยกาล
+        68034768 รัตนตรัย โลซาเรส
       </p>
 
       <ul

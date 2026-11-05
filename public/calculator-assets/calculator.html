@@ -1,73 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <script src="./calculator.js" defer></script>
-    <link rel="stylesheet" href="./calculator.css" />
-  </head>
 
-  <body>
-    <div class="calculator">
-      <div class="outer">
-        <div class="inner">
-          <div class="faceplate" aria-hidden="true">
-            <span>CSI205 <small>CALCULATOR</small></span>
-            <span class="solar-panel"></span>
-          </div>
-          <div
-            id="screen"
-            class="screen"
-            role="status"
-            aria-label="Calculator display"
-          >
-            0
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <script src="./calculator.js" defer></script>
+  <link rel="stylesheet" href="./calculator.css" />
+</head>
 
-          <div class="btn-row">
-            <button class="green" disabled>MC</button>
-            <button class="green" disabled>MR</button>
-            <button class="green" disabled>M+</button>
-            <button class="green" disabled>M-</button>
-            <button class="red" onclick="ceClick()">CE</button>
-          </div>
-
-          <div class="btn-row">
-            <button class="purple" onclick="numberClick(7)">7</button>
-            <button class="purple" onclick="numberClick(8)">8</button>
-            <button class="purple" onclick="numberClick(9)">9</button>
-            <button class="green" onclick="operatorClick('/')">&divide;</button>
-            <button class="green" onclick="sqrtClick()">√</button>
-          </div>
-
-          <div class="btn-row">
-            <button class="purple" onclick="numberClick(4)">4</button>
-            <button class="purple" onclick="numberClick(5)">5</button>
-            <button class="purple" onclick="numberClick(6)">6</button>
-            <button class="green" onclick="operatorClick('*')">&times;</button>
-            <button class="green" onclick="percentClick()">%</button>
-          </div>
-
-          <div class="btn-row">
-            <button class="purple" onclick="numberClick(1)">1</button>
-            <button class="purple" onclick="numberClick(2)">2</button>
-            <button class="purple" onclick="numberClick(3)">3</button>
-            <button class="green" onclick="operatorClick('-')">−</button>
-            <button class="green" onclick="reciprocalClick()">1/x</button>
-          </div>
-
-          <div class="btn-row">
-            <button class="purple" onclick="numberClick(0)">0</button>
-            <button class="purple" onclick="decimalClick()">.</button>
-            <button class="purple" onclick="signClick()">+/−</button>
-            <button class="green" onclick="operatorClick('+')">+</button>
-            <button class="equals" onclick="equalClick()">=</button>
-          </div>
-
-          <div class="student">68071529 สรรชัย ใจยกาล</div>
+<body>
+  <div class="calculator">
+    <div class="outer">
+      <div class="inner">
+        <div class="faceplate" aria-hidden="true">
+          <span>CSI205 <small>CALCULATOR</small></span>
+          <span class="solar-panel"></span>
         </div>
+        <div id="screen" class="screen" role="status" aria-label="Calculator display">
+          0
+        </div>
+
+        <div class="btn-row">
+          <button class="green" disabled>MC</button>
+          <button class="green" disabled>MR</button>
+          <button class="green" disabled>M+</button>
+          <button class="green" disabled>M-</button>
+          <button class="red" onclick="ceClick()">CE</button>
+        </div>
+
+        <div class="btn-row">
+          <button class="purple" onclick="numberClick(7)">7</button>
+          <button class="purple" onclick="numberClick(8)">8</button>
+          <button class="purple" onclick="numberClick(9)">9</button>
+          <button class="green" onclick="operatorClick('/')">&divide;</button>
+          <button class="green" onclick="sqrtClick()">√</button>
+        </div>
+
+        <div class="btn-row">
+          <button class="purple" onclick="numberClick(4)">4</button>
+          <button class="purple" onclick="numberClick(5)">5</button>
+          <button class="purple" onclick="numberClick(6)">6</button>
+          <button class="green" onclick="operatorClick('*')">&times;</button>
+          <button class="green" onclick="percentClick()">%</button>
+        </div>
+
+        <div class="btn-row">
+          <button class="purple" onclick="numberClick(1)">1</button>
+          <button class="purple" onclick="numberClick(2)">2</button>
+          <button class="purple" onclick="numberClick(3)">3</button>
+          <button class="green" onclick="operatorClick('-')">−</button>
+          <button class="green" onclick="reciprocalClick()">1/x</button>
+        </div>
+
+        <div class="btn-row">
+          <button class="purple" onclick="numberClick(0)">0</button>
+          <button class="purple" onclick="decimalClick()">.</button>
+          <button class="purple" onclick="signClick()">+/−</button>
+          <button class="green" onclick="operatorClick('+')">+</button>
+          <button class="equals" onclick="equalClick()">=</button>
+        </div>
+
+        <div class="student">68034768 รัตนตรัย โลซาเรส</div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

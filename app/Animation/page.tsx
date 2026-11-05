@@ -92,7 +92,7 @@ export default function AnimationPage() {
       className="mx-auto max-w-[664px] px-3 text-center"
       aria-label="Animation"
     >
-      <p className="text-2xl">68071529 Sanchai Jaiyakan</p>
+      <p className="text-2xl">68034768 Rattanatrai Rosales</p>
       <div
         className="relative mt-2 aspect-[4/3] w-full overflow-hidden rounded-2xl border-2 border-slate-900 bg-amber-200 bg-cover bg-center"
         style={{ backgroundImage: "url('/animation-assets/wood-.avif')" }}

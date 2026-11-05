@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "สรรชัย ใจยกาล | CSI205",
+  title: "รัตนตรัย โลซาเรส | CSI205",
   description: "โปรไฟล์นักศึกษาและเป้าหมายด้าน Software Engineering",
 };
 
@@ -26,7 +26,7 @@ export default function HomePage() {
             id="profile-name"
             className="mt-5 text-3xl leading-tight font-bold sm:text-5xl"
           >
-            สรรชัย ใจยกาล
+            รัตนตรัย โลซาเรส
           </h1>
 
           <dl className="mt-6 space-y-4 border-t border-white/15 pt-5">
@@ -35,7 +35,7 @@ export default function HomePage() {
                 รหัสนักศึกษา
               </dt>
               <dd className="mt-1 font-mono text-xl tracking-wider">
-                68071529
+                68034768
               </dd>
             </div>
             <div>
@@ -60,7 +60,7 @@ export default function HomePage() {
         <figure className="mx-auto w-full max-w-sm rounded-[1.5rem] border border-white/20 bg-white/10 p-2 shadow-lg shadow-black/30">
           <Image
             src="/student-profile.png"
-            alt="ภาพนักศึกษามหาวิทยาลัยศรีปทุมของสรรชัย ใจยกาล"
+            alt="ภาพนักศึกษามหาวิทยาลัยศรีปทุมของรัตนตรัย โลซาเรส"
             width={1021}
             height={1001}
             sizes="(max-width: 430px) calc(100vw - 90px), 368px"
